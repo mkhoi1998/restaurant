@@ -1,0 +1,175 @@
+.base
+{
+	float: left;
+    width: 300px;
+	height:100vh;
+    margin-left: 18%;
+}
+.vbox
+{
+	position: fixed;
+    vertical-align: top;
+    text-align:center;
+    left: 18%;
+    width: 300px;
+	height:100vh;
+    background-color: #1d1d1d;
+    color: whitesmoke;
+	font-size: 14px;
+}
+.right
+{
+    background-color: #1d1d1d;
+	float: left;
+	width: 600px;
+    margin-top: 75px;
+    margin-left: 30px;
+    color: whitesmoke;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.reservation
+{
+    position: absolute;
+    bottom: 0;
+    text-align:center;
+    margin-left: 5px;
+    margin-bottom: 70px;
+}
+.login
+{
+    color: whitesmoke;
+    width: 300px;
+    height: 500px;
+    font-size: 16px;
+	background-color: #1d1d1d;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+.menuview
+{
+    color: whitesmoke;
+    width: 500px;
+    font-size: 16px;
+	background-color: #1d1d1d;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+ul
+{
+    padding-top: 25px;
+    list-style-type: none;
+	opacity: 0.8;
+}
+li
+{
+	display: inline;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+li a
+{
+    color: whitesmoke;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+h2
+{
+    font-weight: normal;
+    font-size: 20px;
+}
+input[name="book"]
+{
+    background: whitesmoke;
+    color: #1d1d1d;
+    border: none;
+    padding: 12px;
+    width: 270px;
+    font-size: 16px;
+}
+input[id="datepicker"]
+{
+    background: #1d1d1d;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    font-size: 16px;
+}
+select[class="form"]
+{
+    text-align: center;
+    background: #1d1d1d;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 265px;
+    height: 35px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+textarea[class="contact"]
+{
+    background-color:#4d4d4d;
+    text-align: left;
+    border:none; width: 520px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+input[name="send"]
+{
+    background:#4d4d4d;
+    color: #747474;
+    border: none;
+    font-size: 16px;
+}
+input[class="popup"]
+{
+    background: #1d1d1d;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 265px;
+    height: 35px;
+    margin: 18px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+input[class="menucount"]
+{
+    background: #1d1d1d;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+}
+input[class="popupbutton"]
+{
+    background: #1d1d1d;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 265px;
+    height: 35px;
+    margin: 18px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+input[class="menubutton"]
+{
+    background: #1d1d1d;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+}
+input[class="edit"]
+{
+    background: #1d1d1d;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 150px;
+    height: 35px;
+    margin: 18px;
+    font-size: 16px;
+    border-radius: 2px;
+}
